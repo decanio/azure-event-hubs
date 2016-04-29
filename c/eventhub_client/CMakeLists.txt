@@ -46,6 +46,7 @@ target_link_libraries(eventhub_client uamqp)
 linkSharedUtil(eventhub_client)
 
 add_subdirectory(samples)
+add_subdirectory(eventhub_cat)
 
 if(NOT IN_OPENWRT)
     # Disable tests for OpenWRT
